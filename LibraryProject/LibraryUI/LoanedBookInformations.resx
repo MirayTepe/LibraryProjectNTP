@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="lblBookRetrieveOfDate.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblBookRetrieveOfDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblBookRetrieveOfDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookRetrieveOfDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 611</value>
+  </data>
+  <data name="lblBookRetrieveOfDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 23</value>
+  </data>
+  <data name="lblBookRetrieveOfDate.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="lblBookRetrieveOfDate.Text" xml:space="preserve">
+    <value>Emanet Kitap Geri Alma Tarihi</value>
+  </data>
+  <data name="&gt;&gt;lblBookRetrieveOfDate.Name" xml:space="preserve">
+    <value>lblBookRetrieveOfDate</value>
+  </data>
+  <data name="&gt;&gt;lblBookRetrieveOfDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookRetrieveOfDate.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookRetrieveOfDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="lblBookLendingOfDate.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblBookLendingOfDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookLendingOfDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookLendingOfDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 564</value>
+  </data>
+  <data name="lblBookLendingOfDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="lblBookLendingOfDate.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lblBookLendingOfDate.Text" xml:space="preserve">
+    <value>Emanet Kitap Verme Tarihi</value>
+  </data>
+  <data name="&gt;&gt;lblBookLendingOfDate.Name" xml:space="preserve">
+    <value>lblBookLendingOfDate</value>
+  </data>
+  <data name="&gt;&gt;lblBookLendingOfDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookLendingOfDate.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookLendingOfDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="lblBookDescriptiom.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblBookDescriptiom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookDescriptiom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookDescriptiom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 467</value>
+  </data>
+  <data name="lblBookDescriptiom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 23</value>
+  </data>
+  <data name="lblBookDescriptiom.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblBookDescriptiom.Text" xml:space="preserve">
+    <value>Kitap Açıklaması</value>
+  </data>
+  <data name="&gt;&gt;lblBookDescriptiom.Name" xml:space="preserve">
+    <value>lblBookDescriptiom</value>
+  </data>
+  <data name="&gt;&gt;lblBookDescriptiom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookDescriptiom.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookDescriptiom.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="lblBookPublisher.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblBookPublisher.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookPublisher.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookPublisher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 417</value>
+  </data>
+  <data name="lblBookPublisher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="lblBookPublisher.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblBookPublisher.Text" xml:space="preserve">
+    <value>Yayınevi</value>
+  </data>
+  <data name="&gt;&gt;lblBookPublisher.Name" xml:space="preserve">
+    <value>lblBookPublisher</value>
+  </data>
+  <data name="&gt;&gt;lblBookPublisher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookPublisher.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookPublisher.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblLoanedBookId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLoanedBookId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblLoanedBookId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLoanedBookId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 97</value>
+  </data>
+  <data name="lblLoanedBookId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 23</value>
+  </data>
+  <data name="lblLoanedBookId.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lblLoanedBookId.Text" xml:space="preserve">
+    <value>Emanet Kitap Id</value>
+  </data>
+  <data name="&gt;&gt;lblLoanedBookId.Name" xml:space="preserve">
+    <value>lblLoanedBookId</value>
+  </data>
+  <data name="&gt;&gt;lblLoanedBookId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLoanedBookId.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblLoanedBookId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbxLoanedBookId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxLoanedBookId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 95</value>
+  </data>
+  <data name="tbxLoanedBookId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 30</value>
+  </data>
+  <data name="tbxLoanedBookId.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;tbxLoanedBookId.Name" xml:space="preserve">
+    <value>tbxLoanedBookId</value>
+  </data>
+  <data name="&gt;&gt;tbxLoanedBookId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxLoanedBookId.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxLoanedBookId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnLoanedBookUpdate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoanedBookUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLoanedBookUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 687</value>
+  </data>
+  <data name="btnLoanedBookUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 41</value>
+  </data>
+  <data name="btnLoanedBookUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="btnLoanedBookUpdate.Text" xml:space="preserve">
+    <value>Emanet Kitap Güncelle</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookUpdate.Name" xml:space="preserve">
+    <value>btnLoanedBookUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookUpdate.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookUpdate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblAdress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAdress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 179</value>
+  </data>
+  <data name="lblAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="lblAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblAdress.Text" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.Name" xml:space="preserve">
+    <value>lblAdress</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;lblAdress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbxAdress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxAdress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 172</value>
+  </data>
+  <data name="tbxAdress.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxAdress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 30</value>
+  </data>
+  <data name="tbxAdress.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbxAdress.Name" xml:space="preserve">
+    <value>tbxAdress</value>
+  </data>
+  <data name="&gt;&gt;tbxAdress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxAdress.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;tbxAdress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPhoneNo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPhoneNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPhoneNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 128</value>
+  </data>
+  <data name="lblPhoneNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="lblPhoneNo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblPhoneNo.Text" xml:space="preserve">
+    <value>Telefon No</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNo.Name" xml:space="preserve">
+    <value>lblPhoneNo</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNo.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;lblPhoneNo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblMemberNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMemberNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblMemberNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 82</value>
+  </data>
+  <data name="lblMemberNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="lblMemberNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblMemberNumber.Text" xml:space="preserve">
+    <value>Üye No</value>
+  </data>
+  <data name="&gt;&gt;lblMemberNumber.Name" xml:space="preserve">
+    <value>lblMemberNumber</value>
+  </data>
+  <data name="&gt;&gt;lblMemberNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMemberNumber.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;lblMemberNumber.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMemberId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMemberId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblMemberId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 35</value>
+  </data>
+  <data name="lblMemberId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 23</value>
+  </data>
+  <data name="lblMemberId.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblMemberId.Text" xml:space="preserve">
+    <value>Üye Id</value>
+  </data>
+  <data name="&gt;&gt;lblMemberId.Name" xml:space="preserve">
+    <value>lblMemberId</value>
+  </data>
+  <data name="&gt;&gt;lblMemberId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMemberId.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;lblMemberId.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbxPhoneNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxPhoneNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 126</value>
+  </data>
+  <data name="tbxPhoneNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 30</value>
+  </data>
+  <data name="tbxPhoneNo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbxPhoneNo.Name" xml:space="preserve">
+    <value>tbxPhoneNo</value>
+  </data>
+  <data name="&gt;&gt;tbxPhoneNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxPhoneNo.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;tbxPhoneNo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbxMemberNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxMemberNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 80</value>
+  </data>
+  <data name="tbxMemberNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 30</value>
+  </data>
+  <data name="tbxMemberNo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberNo.Name" xml:space="preserve">
+    <value>tbxMemberNo</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberNo.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberNo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbxMemberId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxMemberId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 28</value>
+  </data>
+  <data name="tbxMemberId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 30</value>
+  </data>
+  <data name="tbxMemberId.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberId.Name" xml:space="preserve">
+    <value>tbxMemberId</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberId.Parent" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;tbxMemberId.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gruopBoxMemberSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="gruopBoxMemberSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 60</value>
+  </data>
+  <data name="gruopBoxMemberSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 224</value>
+  </data>
+  <data name="gruopBoxMemberSave.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gruopBoxMemberSave.Text" xml:space="preserve">
+    <value>Üye Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;gruopBoxMemberSave.Name" xml:space="preserve">
+    <value>gruopBoxMemberSave</value>
+  </data>
+  <data name="&gt;&gt;gruopBoxMemberSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gruopBoxMemberSave.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;gruopBoxMemberSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnLoanedBookAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoanedBookAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 687</value>
+  </data>
+  <data name="btnLoanedBookAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 41</value>
+  </data>
+  <data name="btnLoanedBookAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnLoanedBookAdd.Text" xml:space="preserve">
+    <value>Emanet Kitap Ver</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.Name" xml:space="preserve">
+    <value>btnLoanedBookAdd</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dtpBookRetrieveOfDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="dtpBookRetrieveOfDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 606</value>
+  </data>
+  <data name="dtpBookRetrieveOfDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 30</value>
+  </data>
+  <data name="dtpBookRetrieveOfDate.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;dtpBookRetrieveOfDate.Name" xml:space="preserve">
+    <value>dtpBookRetrieveOfDate</value>
+  </data>
+  <data name="&gt;&gt;dtpBookRetrieveOfDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpBookRetrieveOfDate.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;dtpBookRetrieveOfDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dtpBookLendingOfDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="dtpBookLendingOfDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 557</value>
+  </data>
+  <data name="dtpBookLendingOfDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 30</value>
+  </data>
+  <data name="dtpBookLendingOfDate.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;dtpBookLendingOfDate.Name" xml:space="preserve">
+    <value>dtpBookLendingOfDate</value>
+  </data>
+  <data name="&gt;&gt;dtpBookLendingOfDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpBookLendingOfDate.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;dtpBookLendingOfDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblBookId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>738, 142</value>
+  </data>
+  <data name="lblBookId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="lblBookId.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblBookId.Text" xml:space="preserve">
+    <value>Kitap Id</value>
+  </data>
+  <data name="&gt;&gt;lblBookId.Name" xml:space="preserve">
+    <value>lblBookId</value>
+  </data>
+  <data name="&gt;&gt;lblBookId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookId.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookId.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbxBookId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxBookId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 140</value>
+  </data>
+  <data name="tbxBookId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 30</value>
+  </data>
+  <data name="tbxBookId.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;tbxBookId.Name" xml:space="preserve">
+    <value>tbxBookId</value>
+  </data>
+  <data name="&gt;&gt;tbxBookId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxBookId.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxBookId.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbxBookDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxBookDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>857, 463</value>
+  </data>
+  <data name="tbxBookDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbxBookDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 88</value>
+  </data>
+  <data name="tbxBookDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;tbxBookDescription.Name" xml:space="preserve">
+    <value>tbxBookDescription</value>
+  </data>
+  <data name="&gt;&gt;tbxBookDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxBookDescription.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxBookDescription.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxCategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="comboBoxCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 181</value>
+  </data>
+  <data name="comboBoxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 31</value>
+  </data>
+  <data name="comboBoxCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.Name" xml:space="preserve">
+    <value>comboBoxCategory</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbxBookPublisher.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxBookPublisher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>857, 415</value>
+  </data>
+  <data name="tbxBookPublisher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 30</value>
+  </data>
+  <data name="tbxBookPublisher.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;tbxBookPublisher.Name" xml:space="preserve">
+    <value>tbxBookPublisher</value>
+  </data>
+  <data name="&gt;&gt;tbxBookPublisher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxBookPublisher.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxBookPublisher.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblBookLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>778, 378</value>
+  </data>
+  <data name="lblBookLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 23</value>
+  </data>
+  <data name="lblBookLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblBookLanguage.Text" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="&gt;&gt;lblBookLanguage.Name" xml:space="preserve">
+    <value>lblBookLanguage</value>
+  </data>
+  <data name="&gt;&gt;lblBookLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookLanguage.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookLanguage.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tbxBookLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxBookLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 368</value>
+  </data>
+  <data name="tbxBookLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 30</value>
+  </data>
+  <data name="tbxBookLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;tbxBookLanguage.Name" xml:space="preserve">
+    <value>tbxBookLanguage</value>
+  </data>
+  <data name="&gt;&gt;tbxBookLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxBookLanguage.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxBookLanguage.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblNumberOfPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumberOfPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblNumberOfPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 327</value>
+  </data>
+  <data name="lblNumberOfPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="lblNumberOfPage.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblNumberOfPage.Text" xml:space="preserve">
+    <value>Sayfa Sayısı</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPage.Name" xml:space="preserve">
+    <value>lblNumberOfPage</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPage.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblNumberOfPage.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tbxNumberOfPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxNumberOfPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 317</value>
+  </data>
+  <data name="tbxNumberOfPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 30</value>
+  </data>
+  <data name="tbxNumberOfPage.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tbxNumberOfPage.Name" xml:space="preserve">
+    <value>tbxNumberOfPage</value>
+  </data>
+  <data name="&gt;&gt;tbxNumberOfPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxNumberOfPage.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxNumberOfPage.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblBookAuthor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookAuthor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 282</value>
+  </data>
+  <data name="lblBookAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="lblBookAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblBookAuthor.Text" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="&gt;&gt;lblBookAuthor.Name" xml:space="preserve">
+    <value>lblBookAuthor</value>
+  </data>
+  <data name="&gt;&gt;lblBookAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookAuthor.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookAuthor.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblBookName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBookName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblBookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 236</value>
+  </data>
+  <data name="lblBookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="lblBookName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblBookName.Text" xml:space="preserve">
+    <value>Kitabın Adı</value>
+  </data>
+  <data name="&gt;&gt;lblBookName.Name" xml:space="preserve">
+    <value>lblBookName</value>
+  </data>
+  <data name="&gt;&gt;lblBookName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBookName.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblBookName.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblCategoryName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCategoryName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="lblCategoryName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 193</value>
+  </data>
+  <data name="lblCategoryName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 23</value>
+  </data>
+  <data name="lblCategoryName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblCategoryName.Text" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="&gt;&gt;lblCategoryName.Name" xml:space="preserve">
+    <value>lblCategoryName</value>
+  </data>
+  <data name="&gt;&gt;lblCategoryName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCategoryName.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;lblCategoryName.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="tbxBookAuthor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxBookAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 272</value>
+  </data>
+  <data name="tbxBookAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 30</value>
+  </data>
+  <data name="tbxBookAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbxBookAuthor.Name" xml:space="preserve">
+    <value>tbxBookAuthor</value>
+  </data>
+  <data name="&gt;&gt;tbxBookAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxBookAuthor.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxBookAuthor.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tbxBookName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="tbxBookName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 226</value>
+  </data>
+  <data name="tbxBookName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 30</value>
+  </data>
+  <data name="tbxBookName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbxBookName.Name" xml:space="preserve">
+    <value>tbxBookName</value>
+  </data>
+  <data name="&gt;&gt;tbxBookName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxBookName.Parent" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;tbxBookName.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="groupBoxLoanedBook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 16.2pt, style=Bold, Italic</value>
+  </data>
+  <data name="groupBoxLoanedBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="groupBoxLoanedBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1250, 796</value>
+  </data>
+  <data name="groupBoxLoanedBook.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="groupBoxLoanedBook.Text" xml:space="preserve">
+    <value>Emanet Kitap Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLoanedBook.Name" xml:space="preserve">
+    <value>groupBoxLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLoanedBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLoanedBook.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxLoanedBook.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1381, 896</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Emanet Kitap Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LoanedBookInformations</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

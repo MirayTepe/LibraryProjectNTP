@@ -1,0 +1,1110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnUserProcess.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnUserProcess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="btnUserProcess.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnUserProcess.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btnUserProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 3</value>
+  </data>
+  <data name="btnUserProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 89</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnUserProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnUserProcess.Text" xml:space="preserve">
+    <value>Kullanıcı İşlemleri</value>
+  </data>
+  <data name="btnUserProcess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnUserProcess.Name" xml:space="preserve">
+    <value>btnUserProcess</value>
+  </data>
+  <data name="&gt;&gt;btnUserProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUserProcess.Parent" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;btnUserProcess.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlAdminMenu.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnLoanedBookList.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoanedBookList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnLoanedBookList.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnLoanedBookList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 127</value>
+  </data>
+  <data name="btnLoanedBookList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 72</value>
+  </data>
+  <data name="btnLoanedBookList.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnLoanedBookList.Text" xml:space="preserve">
+    <value>Emanet Kitapları Listele</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookList.Name" xml:space="preserve">
+    <value>btnLoanedBookList</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookList.Parent" xml:space="preserve">
+    <value>pnlLoanedBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLoanedBookAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoanedBookAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnLoanedBookAdd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnLoanedBookAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 0</value>
+  </data>
+  <data name="btnLoanedBookAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 68</value>
+  </data>
+  <data name="btnLoanedBookAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnLoanedBookAdd.Text" xml:space="preserve">
+    <value>Emanet Kitap Ver</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.Name" xml:space="preserve">
+    <value>btnLoanedBookAdd</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.Parent" xml:space="preserve">
+    <value>pnlLoanedBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBookAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDeleteLoanedBook.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDeleteLoanedBook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnDeleteLoanedBook.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnDeleteLoanedBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-15, 63</value>
+  </data>
+  <data name="btnDeleteLoanedBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 74</value>
+  </data>
+  <data name="btnDeleteLoanedBook.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnDeleteLoanedBook.Text" xml:space="preserve">
+    <value>Emanet Kitabı 
+   Geri  Al</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLoanedBook.Name" xml:space="preserve">
+    <value>btnDeleteLoanedBook</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLoanedBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLoanedBook.Parent" xml:space="preserve">
+    <value>pnlLoanedBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLoanedBook.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlLoanedBookSubMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 819</value>
+  </data>
+  <data name="pnlLoanedBookSubMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 199</value>
+  </data>
+  <data name="pnlLoanedBookSubMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pnlLoanedBookSubMenu.Name" xml:space="preserve">
+    <value>pnlLoanedBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlLoanedBookSubMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLoanedBookSubMenu.Parent" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlLoanedBookSubMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeleteBook.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDeleteBook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnDeleteBook.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnDeleteBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 0</value>
+  </data>
+  <data name="btnDeleteBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 37</value>
+  </data>
+  <data name="btnDeleteBook.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDeleteBook.Text" xml:space="preserve">
+    <value>Kitap Sil</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteBook.Name" xml:space="preserve">
+    <value>btnDeleteBook</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteBook.Parent" xml:space="preserve">
+    <value>pnlBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteBook.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnListBook.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnListBook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnListBook.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnListBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 104</value>
+  </data>
+  <data name="btnListBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 56</value>
+  </data>
+  <data name="btnListBook.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnListBook.Text" xml:space="preserve">
+    <value>Kitapları Listele</value>
+  </data>
+  <data name="&gt;&gt;btnListBook.Name" xml:space="preserve">
+    <value>btnListBook</value>
+  </data>
+  <data name="&gt;&gt;btnListBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnListBook.Parent" xml:space="preserve">
+    <value>pnlBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnListBook.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnUpdateBook.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnUpdateBook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnUpdateBook.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnUpdateBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 67</value>
+  </data>
+  <data name="btnUpdateBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 38</value>
+  </data>
+  <data name="btnUpdateBook.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnUpdateBook.Text" xml:space="preserve">
+    <value>Kitap Güncelle</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateBook.Name" xml:space="preserve">
+    <value>btnUpdateBook</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateBook.Parent" xml:space="preserve">
+    <value>pnlBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateBook.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAddBook.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddBook.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnAddBook.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-15, 32</value>
+  </data>
+  <data name="btnAddBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 38</value>
+  </data>
+  <data name="btnAddBook.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAddBook.Text" xml:space="preserve">
+    <value>Kitap Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddBook.Name" xml:space="preserve">
+    <value>btnAddBook</value>
+  </data>
+  <data name="&gt;&gt;btnAddBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddBook.Parent" xml:space="preserve">
+    <value>pnlBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnAddBook.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlBookSubMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 532</value>
+  </data>
+  <data name="pnlBookSubMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 163</value>
+  </data>
+  <data name="pnlBookSubMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pnlBookSubMenu.Name" xml:space="preserve">
+    <value>pnlBookSubMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlBookSubMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlBookSubMenu.Parent" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlBookSubMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnListMember.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnListMember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnListMember.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnListMember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-6, 104</value>
+  </data>
+  <data name="btnListMember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 33</value>
+  </data>
+  <data name="btnListMember.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnListMember.Text" xml:space="preserve">
+    <value>Üyeleri Listele</value>
+  </data>
+  <data name="&gt;&gt;btnListMember.Name" xml:space="preserve">
+    <value>btnListMember</value>
+  </data>
+  <data name="&gt;&gt;btnListMember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnListMember.Parent" xml:space="preserve">
+    <value>pnlMemberSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnListMember.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnUpdateMember.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnUpdateMember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnUpdateMember.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnUpdateMember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 71</value>
+  </data>
+  <data name="btnUpdateMember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 35</value>
+  </data>
+  <data name="btnUpdateMember.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnUpdateMember.Text" xml:space="preserve">
+    <value>Üye Güncelle</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateMember.Name" xml:space="preserve">
+    <value>btnUpdateMember</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateMember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateMember.Parent" xml:space="preserve">
+    <value>pnlMemberSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateMember.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDeleteMember.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDeleteMember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnDeleteMember.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnDeleteMember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 41</value>
+  </data>
+  <data name="btnDeleteMember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 35</value>
+  </data>
+  <data name="btnDeleteMember.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnDeleteMember.Text" xml:space="preserve">
+    <value>Üye Sil</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteMember.Name" xml:space="preserve">
+    <value>btnDeleteMember</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteMember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteMember.Parent" xml:space="preserve">
+    <value>pnlMemberSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteMember.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAddMember.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddMember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnAddMember.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddMember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 3</value>
+  </data>
+  <data name="btnAddMember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 40</value>
+  </data>
+  <data name="btnAddMember.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnAddMember.Text" xml:space="preserve">
+    <value>Üye Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddMember.Name" xml:space="preserve">
+    <value>btnAddMember</value>
+  </data>
+  <data name="&gt;&gt;btnAddMember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddMember.Parent" xml:space="preserve">
+    <value>pnlMemberSubMenu</value>
+  </data>
+  <data name="&gt;&gt;btnAddMember.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlMemberSubMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 179</value>
+  </data>
+  <data name="pnlMemberSubMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 141</value>
+  </data>
+  <data name="pnlMemberSubMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;pnlMemberSubMenu.Name" xml:space="preserve">
+    <value>pnlMemberSubMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlMemberSubMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMemberSubMenu.Parent" xml:space="preserve">
+    <value>pnlUserProcessSubMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlMemberSubMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAddAdmin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAddAdmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnAddAdmin.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAddAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, -3</value>
+  </data>
+  <data name="btnAddAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 38</value>
+  </data>
+  <data name="btnAddAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAddAdmin.Text" xml:space="preserve">
+    <value>Admin Ekle</value>
+  </data>
+  <data name="&gt;&gt;btnAddAdmin.Name" xml:space="preserve">
+    <value>btnAddAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnAddAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddAdmin.Parent" xml:space="preserve">
+    <value>pnlSubMenuAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnAddAdmin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnUpdateAdmin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnUpdateAdmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnUpdateAdmin.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnUpdateAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-15, 66</value>
+  </data>
+  <data name="btnUpdateAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 42</value>
+  </data>
+  <data name="btnUpdateAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnUpdateAdmin.Text" xml:space="preserve">
+    <value>Admin Güncelle</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAdmin.Name" xml:space="preserve">
+    <value>btnUpdateAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAdmin.Parent" xml:space="preserve">
+    <value>pnlSubMenuAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnUpdateAdmin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDeleteAdmin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDeleteAdmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnDeleteAdmin.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnDeleteAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-6, 32</value>
+  </data>
+  <data name="btnDeleteAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 38</value>
+  </data>
+  <data name="btnDeleteAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDeleteAdmin.Text" xml:space="preserve">
+    <value>Admin Sil</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAdmin.Name" xml:space="preserve">
+    <value>btnDeleteAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAdmin.Parent" xml:space="preserve">
+    <value>pnlSubMenuAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAdmin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnListAdmin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnListAdmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.2pt, style=Bold</value>
+  </data>
+  <data name="btnListAdmin.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnListAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 107</value>
+  </data>
+  <data name="btnListAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 63</value>
+  </data>
+  <data name="btnListAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnListAdmin.Text" xml:space="preserve">
+    <value>Adminleri Listele</value>
+  </data>
+  <data name="&gt;&gt;btnListAdmin.Name" xml:space="preserve">
+    <value>btnListAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnListAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnListAdmin.Parent" xml:space="preserve">
+    <value>pnlSubMenuAdmin</value>
+  </data>
+  <data name="&gt;&gt;btnListAdmin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlSubMenuAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlSubMenuAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 173</value>
+  </data>
+  <data name="pnlSubMenuAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuAdmin.Name" xml:space="preserve">
+    <value>pnlSubMenuAdmin</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuAdmin.Parent" xml:space="preserve">
+    <value>pnlUserProcessSubMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlSubMenuAdmin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlUserProcessSubMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 98</value>
+  </data>
+  <data name="pnlUserProcessSubMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 323</value>
+  </data>
+  <data name="pnlUserProcessSubMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pnlUserProcessSubMenu.Name" xml:space="preserve">
+    <value>pnlUserProcessSubMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlUserProcessSubMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlUserProcessSubMenu.Parent" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlUserProcessSubMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnLoanedBooks.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoanedBooks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.8pt, style=Bold</value>
+  </data>
+  <data name="btnLoanedBooks.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Foj+BR+n8ex9DcSkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnLoanedBooks.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btnLoanedBooks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 701</value>
+  </data>
+  <data name="btnLoanedBooks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 112</value>
+  </data>
+  <data name="btnLoanedBooks.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnLoanedBooks.Text" xml:space="preserve">
+    <value>Emanet   Kitaplar</value>
+  </data>
+  <data name="btnLoanedBooks.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBooks.Name" xml:space="preserve">
+    <value>btnLoanedBooks</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBooks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBooks.Parent" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;btnLoanedBooks.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnBooks.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBooks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10.8pt, style=Bold</value>
+  </data>
+  <data name="btnBooks.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Foj+BR+n8ex9DcSkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnBooks.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="btnBooks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 427</value>
+  </data>
+  <data name="btnBooks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 105</value>
+  </data>
+  <data name="btnBooks.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnBooks.Text" xml:space="preserve">
+    <value>Kitaplar</value>
+  </data>
+  <data name="btnBooks.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btnBooks.Name" xml:space="preserve">
+    <value>btnBooks</value>
+  </data>
+  <data name="&gt;&gt;btnBooks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBooks.Parent" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;btnBooks.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pnlAdminMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlAdminMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlAdminMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="pnlAdminMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 1055</value>
+  </data>
+  <data name="pnlAdminMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlAdminMenu.Name" xml:space="preserve">
+    <value>pnlAdminMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlAdminMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAdminMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlAdminMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 22</value>
+  </data>
+  <data name="lblHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 34</value>
+  </data>
+  <data name="lblHome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblHome.Text" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="&gt;&gt;lblHome.Name" xml:space="preserve">
+    <value>lblHome</value>
+  </data>
+  <data name="&gt;&gt;lblHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHome.Parent" xml:space="preserve">
+    <value>pnlTitleBar</value>
+  </data>
+  <data name="&gt;&gt;lblHome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 0</value>
+  </data>
+  <data name="pnlTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1723, 75</value>
+  </data>
+  <data name="pnlTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.Name" xml:space="preserve">
+    <value>pnlTitleBar</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelDestopPane.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelDestopPane.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panelDestopPane.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelDestopPane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 75</value>
+  </data>
+  <data name="panelDestopPane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1723, 980</value>
+  </data>
+  <data name="panelDestopPane.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelDestopPane.Name" xml:space="preserve">
+    <value>panelDestopPane</value>
+  </data>
+  <data name="&gt;&gt;panelDestopPane.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelDestopPane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelDestopPane.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1924, 1055</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmHomePage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

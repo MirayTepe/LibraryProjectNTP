@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A97D3AE8-2AAE-498E-9AB5-2885AA076457}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LibraryProject</RootNamespace>
+    <AssemblyName>LibraryProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConnClass.cs" />
+    <Compile Include="DataAccess\Abstract\IAdminDal.cs" />
+    <Compile Include="DataAccess\Abstract\IBookDal.cs" />
+    <Compile Include="DataAccess\Abstract\ILoanedBookDal.cs" />
+    <Compile Include="DataAccess\Abstract\IMemberDal.cs" />
+    <Compile Include="DataAccess\Abstract\ISqlConnBase.cs" />
+    <Compile Include="DataAccess\Abstract\IUserDal.cs" />
+    <Compile Include="DataAccess\Concrete\AdminDal.cs" />
+    <Compile Include="DataAccess\Concrete\BookDal.cs" />
+    <Compile Include="DataAccess\Concrete\CategoryDal.cs" />
+    <Compile Include="DataAccess\Abstract\ICategoryDal.cs" />
+    <Compile Include="DataAccess\Concrete\LoanedBookDal.cs" />
+    <Compile Include="DataAccess\Concrete\MemberDal.cs" />
+    <Compile Include="DataAccess\Concrete\SqlConnBase.cs" />
+    <Compile Include="DataAccess\Concrete\Tools\Mail.cs" />
+    <Compile Include="DataAccess\Concrete\UserDal.cs" />
+    <Compile Include="Entities\Abstract\IDto.cs" />
+    <Compile Include="Entities\Abstract\IEntity.cs" />
+    <Compile Include="Entities\DTOs\LoginDto.cs" />
+    <Compile Include="Entities\Concrete\Admin.cs" />
+    <Compile Include="Entities\Concrete\Book.cs" />
+    <Compile Include="Entities\Concrete\Category.cs" />
+    <Compile Include="Entities\Concrete\LoanedBook.cs" />
+    <Compile Include="Entities\Concrete\Member.cs" />
+    <Compile Include="Entities\Concrete\User.cs" />
+    <Compile Include="LibraryUI\AdminList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\AdminList.Designer.cs">
+      <DependentUpon>AdminList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\AdminLoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\AdminLoginPage.Designer.cs">
+      <DependentUpon>AdminLoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\AdminDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\AdminDelete.Designer.cs">
+      <DependentUpon>AdminDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\AdminUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\AdminUpdate.Designer.cs">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\BookAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\BookAdd.Designer.cs">
+      <DependentUpon>BookAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\BookDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\BookDelete.Designer.cs">
+      <DependentUpon>BookDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\BookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\BookList.Designer.cs">
+      <DependentUpon>BookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\BookUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\BookUpdate.Designer.cs">
+      <DependentUpon>BookUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\ForgotPasswordPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\ForgotPasswordPage.Designer.cs">
+      <DependentUpon>ForgotPasswordPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\GiveLoanedBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\GiveLoanedBook.Designer.cs">
+      <DependentUpon>GiveLoanedBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\LoanedBookInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\LoanedBookInformations.Designer.cs">
+      <DependentUpon>LoanedBookInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\LoanedBookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\LoanedBookList.Designer.cs">
+      <DependentUpon>LoanedBookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\MailToMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\MailToMember.Designer.cs">
+      <DependentUpon>MailToMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\MemberDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\MemberDelete.Designer.cs">
+      <DependentUpon>MemberDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\MemberList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\MemberList.Designer.cs">
+      <DependentUpon>MemberList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\MemberSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\MemberSave.Designer.cs">
+      <DependentUpon>MemberSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\MemberUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\MemberUpdate.Designer.cs">
+      <DependentUpon>MemberUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\Program.cs" />
+    <Compile Include="LibraryUI\AdminSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\AdminSave.Designer.cs">
+      <DependentUpon>AdminSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\PunishmentProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\PunishmentProcess.Designer.cs">
+      <DependentUpon>PunishmentProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\RetrieveBookInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\RetrieveBookInformations.Designer.cs">
+      <DependentUpon>RetrieveBookInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUI\RetrieveLoanedBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUI\RetrieveLoanedBook.Designer.cs">
+      <DependentUpon>RetrieveLoanedBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LibraryUI\AdminList.resx">
+      <DependentUpon>AdminList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\AdminLoginPage.resx">
+      <DependentUpon>AdminLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\AdminDelete.resx">
+      <DependentUpon>AdminDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\AdminUpdate.resx">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\BookAdd.resx">
+      <DependentUpon>BookAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\BookDelete.resx">
+      <DependentUpon>BookDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\BookList.resx">
+      <DependentUpon>BookList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\BookUpdate.resx">
+      <DependentUpon>BookUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\Categories.resx">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\ForgotPasswordPage.resx">
+      <DependentUpon>ForgotPasswordPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\GiveLoanedBook.resx">
+      <DependentUpon>GiveLoanedBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\AdminSave.resx">
+      <DependentUpon>AdminSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\LoanedBookInformations.resx">
+      <DependentUpon>LoanedBookInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\LoanedBookList.resx">
+      <DependentUpon>LoanedBookList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\MailToMember.resx">
+      <DependentUpon>MailToMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\MemberDelete.resx">
+      <DependentUpon>MemberDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\MemberList.resx">
+      <DependentUpon>MemberList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\MemberSave.resx">
+      <DependentUpon>MemberSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\MemberUpdate.resx">
+      <DependentUpon>MemberUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\PunishmentProcess.resx">
+      <DependentUpon>PunishmentProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\RetrieveBookInformations.resx">
+      <DependentUpon>RetrieveBookInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUI\RetrieveLoanedBook.resx">
+      <DependentUpon>RetrieveLoanedBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
